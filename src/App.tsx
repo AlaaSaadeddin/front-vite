@@ -21,6 +21,10 @@ import Locations from './pages/Locations';
 import LocationAssignment from './pages/LocationAssignment';
 import LeaveRequests from './pages/LeaveRequests';
 import MyLeave from './pages/MyLeave';
+import NotificationSettings from './pages/NotificationSettings';
+import APIKeys from './pages/APIKeys';
+import HelpCenter from './pages/HelpCenter';
+import Support from './pages/Support';
 import DashboardLayout from './components/layout/DashboardLayout';
 import { useAuth } from './context/AuthContext';
 
@@ -61,6 +65,10 @@ const App: React.FC = () => {
           <Route path="profile" element={<ProfilePage />} />
           <Route path="leaves/requests" element={<LeaveRequests />} />
           <Route path="leaves/my" element={<MyLeave />} />
+          <Route path="settings/notifications" element={<NotificationSettings />} />
+          <Route path="settings/api" element={<APIKeys />} />
+          <Route path="help" element={<HelpCenter />} />
+          <Route path="support" element={<Support />} />
           {/* Add more routes */}
           <Route path="*" element={<div>Page Not Found</div>} />
         </Route>

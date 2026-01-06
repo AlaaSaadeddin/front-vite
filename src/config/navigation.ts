@@ -38,6 +38,7 @@ export const ROLE_NAVIGATION: Record<string, NavItem[]> = {
       icon: MoreHorizontal,
       children: [
         { label: 'My Profile', path: '/profile' },
+        { label: 'Notifications Settings', path: '/settings/notifications' },
         { label: 'Help Center', path: '/help' },
         { label: 'Support', path: '/support' },
       ]
@@ -72,6 +73,7 @@ export const ROLE_NAVIGATION: Record<string, NavItem[]> = {
       icon: MoreHorizontal,
       children: [
         { label: 'My Profile', path: '/profile' },
+        { label: 'Notifications Settings', path: '/settings/notifications' },
         { label: 'Help Center', path: '/help' },
         { label: 'Support', path: '/support' },
       ]
@@ -128,6 +130,7 @@ export const ROLE_NAVIGATION: Record<string, NavItem[]> = {
       icon: MoreHorizontal,
       children: [
         { label: 'My Profile', path: '/profile' },
+        { label: 'Notifications Settings', path: '/settings/notifications' },
         { label: 'Help Center', path: '/help' },
         { label: 'Support', path: '/support' },
       ]
@@ -177,6 +180,7 @@ export const ROLE_NAVIGATION: Record<string, NavItem[]> = {
       icon: MoreHorizontal,
       children: [
         { label: 'My Profile', path: '/profile' },
+        { label: 'Notifications Settings', path: '/settings/notifications' },
         { label: 'Help Center', path: '/help' },
         { label: 'Support', path: '/support' },
       ]
